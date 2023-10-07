@@ -1,0 +1,28 @@
+.fixed-navbar {
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black; /* Set it initially transparent */
+  z-index: 1000; /* Ensure it's above other content */
+  height: max-content;
+  position: fixed;
+}
+.heading_navbar{
+    display:flex;
+    align-items: center;
+  
+  }
+  .img_spotify{
+    background-image: url('../images/spotify.png');
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
+    padding:10px;
+  }
+  .spotify_heading{
+    font-size:4vw;
+    color: rgb(59, 252, 59);
+    padding: 3vh;
+    display: flex;
+  }

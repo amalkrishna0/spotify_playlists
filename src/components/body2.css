@@ -1,0 +1,37 @@
+.main-2{
+    margin-top: 150px;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .search-2{
+    display: flex;
+    text-align: center;
+    height: 40%;
+    width: 40%; 
+  } 
+  .search_button-2{
+    background-image: url('../images/seach.png');
+    background-size: cover;
+    width: 70px;
+    padding: 6px;
+    margin-left: 10px;
+  }
+  
+  .artists_cards{
+    margin: 0 auto;
+    width: 80%;
+    height: 60%;
+    
+  }
+  .card-img{
+    max-height: 75%;
+    max-width: 70%;
+  }
+  .card{
+    border:10px solid black;
+  }
+  .row{
+    height: 10rem;
+  }
