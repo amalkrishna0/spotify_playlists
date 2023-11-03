@@ -32,3 +32,10 @@
   .main_card_container{
     display: flex;
   }
+  .main_body{
+    position: absolute;
+    top: 0; /* Position it at the top */
+    left: 0;
+    width: 100%; /* Make it full-width */
+    margin: 0;
+  }

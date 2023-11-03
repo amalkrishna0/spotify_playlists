@@ -23,7 +23,7 @@ export default function Body() {
   
     async function search(event) {
         console.log("searching for" + searchInput)
-        event.preventDefault()
+                event.preventDefault()
         var authParameters1 = {
             method: 'GET',
             headers: {
@@ -48,6 +48,7 @@ export default function Body() {
     }
     return (
         <div className="main_body">
+            <button className='next-page'>Top Tracks</button>
             <div className="main">
                 <form className="search" name='search' id='search' onSubmit={search}>
                     <input

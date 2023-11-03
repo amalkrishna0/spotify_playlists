@@ -74,12 +74,12 @@ export default function Body2() {
             <div className="artists_cards">
                 {topalbum.map((top, i) => {
                     return (
-                        <div className="card" style={{ maxHeight: "10rem" }}>
+                        <div className="card" style={{ maxWidth: "800px" ,margin:"0 auto",marginLeft:"100px"}}>
                             <div className="row">
-                                <div className="col-md-4">
-                                    <img src={top.album.images[0].url} className="card-img" alt="..." style={{ maxHeight: "50%%", maxWidth: "50%%" }} />
+                                <div className="col-sm-4 p-3">
+                                    <img src={top.album.images[0].url} className="card-img" alt="..." style={{ maxWidth: "100%" }} />
                                 </div>
-                                <div className="col-md-8">
+                                <div className="col-md-8 p-3">
                                     <div className="card-body" style={{ maxHeight: "100%", overflow: "hidden" }}>
                                         <h4>{top.name}</h4>
                                     </div>
